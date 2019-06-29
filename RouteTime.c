@@ -9,7 +9,7 @@
 #define MAX_LINE_LEN 256
 
 void stripNewLine(char* line) {
-  while (line[strlen(line) - 1] == '\n' || line[strlen(line) - 1] == '\r') {
+  while (strlen (line) && (line[strlen(line) - 1] == '\n' || line[strlen(line) - 1] == '\r')) {
     line[strlen(line) - 1] = '\0';
   }
 }
