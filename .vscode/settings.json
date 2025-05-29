@@ -1,3 +1,14 @@
 {
-    "gitdoc.enabled": true
+    "gitdoc.enabled": true,
+    "files.associations": {
+        "typeinfo": "c",
+        "timehm.h": "c",
+        "array": "c",
+        "deque": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "vector": "c",
+        "string_view": "c",
+        "initializer_list": "c"
+    }
 }
